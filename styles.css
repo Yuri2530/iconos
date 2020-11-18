@@ -1,0 +1,85 @@
+.container-ul li{
+padding-left: 25px;
+margin-bottom: 25px;
+font-family: 'Raleway', sans-serif;
+font-size: 2em;
+margin-left: 40px;
+
+
+}
+
+
+.container-ul li::marker{
+    font-family: "Font Awesome 5 Free";
+    content:'\f182' ;
+    font-weight: 900;
+    color:violet;
+    font-size: 2em;
+    
+
+}
+
+.container-ul li:nth-child(2)::marker{
+    content:'\f1fd' ;
+    font-weight: 900;
+    color:rgb(127, 45, 160);
+    
+
+}
+
+.container-ul li:nth-child(3)::marker{
+    content:'\f221' ;
+    font-weight: 900;
+    color:rgb(45, 143, 160);
+
+}
+
+.container-ul li:nth-child(4)::marker{
+    content:'\f1c9' ;
+    font-weight: 900;
+    color:rgb(64, 160, 45);
+
+}
+
+.container-ul li:nth-child(5){
+    
+    color:rgba(160, 97, 45, 0.815);
+    font-size: 1.5em;
+
+}
+
+.container-ul li:nth-child(5)::marker{
+    
+    content: "";
+
+}
+/*Menú de los Hobbies*/
+.container-ul__li-ol li{
+    color: black;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+.container-ul__li-ol li:nth-child(1){
+    margin-top: 45px;
+}
+
+.container-ul__li-ol li::marker{
+    content:'\f5da' ;
+    font-size: 1.5em;
+    color: tomato;
+    
+}
+
+
+.container-ul__li-ol li:nth-child(2)::marker{
+    content:'\f564' ;
+    color: rgb(255, 206, 71);
+}
+
+
+.container-ul__li-ol li:nth-child(3)::marker{
+    content:'\e065' ;
+    color: rgb(255, 160, 71);
+}
